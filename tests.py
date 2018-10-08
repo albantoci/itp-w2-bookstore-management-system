@@ -6,7 +6,7 @@ from bookstore import (
 def test_create_bookstore():
     store = create_bookstore("rmotr's bookstore")
     name = get_bookstore_name(store)
-    assert name == "rmotr's bookstore"
+    assert name == "rmotr's bookstore" 
 
 
 def test_add_get_authors():
